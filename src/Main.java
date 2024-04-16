@@ -1,11 +1,18 @@
 abstract class Hero {
     private String name;
     private int level;
+    private int healthPoints;
 
     public Hero(String name, int level) {
         this.name = name;
         this.level = level;
     }
+
+    public abstract void attack();
+
+    public abstract void defend();
+
+    public abstract void specialSkil();
 
     public abstract void useSkill();
 
@@ -24,17 +31,15 @@ abstract class Hero {
     public void setLevel(int level) {
         this.level = level;
     }
-}
 
-class Warrior extends Hero {
-    public Warrior(String name, int level) {
-        super(name, level);
+    public int getHealthPoints() {
+        return healthPoints;
     }
 
-    @Override
-    public void useSkill() {
-        System.out.println("Warrior uses Slash!");
+    public void setHealthPoints(int healthPoints) {
+        this.healthPoints = healthPoints;
     }
+
 }
 
 class Item {
@@ -55,10 +60,6 @@ class Item {
 
 public class Main {
     public static void main(String[] args) {
-        Warrior warrior = new Warrior("Aragorn", 10);
-        System.out.println("Hero: " + warrior.getName());
-        System.out.println("Level: " + warrior.getLevel());
-        warrior.useSkill();
 
         Item sword = new Item("Excalibur");
         System.out.println("Equipped Item: " + sword.getName());
