@@ -3,9 +3,10 @@ abstract class Hero {
     private int level;
     private int healthPoints;
 
-    public Hero(String name, int level) {
+    public Hero(String name, int level, int healthPoints) {
         this.name = name;
         this.level = level;
+        this.healthPoints = healthPoints;
     }
 
     public abstract void attack();
@@ -40,6 +41,29 @@ abstract class Hero {
         this.healthPoints = healthPoints;
     }
 
+}
+
+class Fighter extends Hero {
+    public Fighter(String name, int level, int healthPoints) {
+        super(name, level, healthPoints);
+    }
+
+    public void attack() {
+        System.out.println("Swings sword");
+    }
+
+    public void defend() {
+        System.out.println("Swings sword");
+
+    }
+
+    public void useSkill() {
+        System.out.println("Swings sword");
+    }
+
+    public void specialSkil() {
+        System.out.println("Swings sword");
+    }
 }
 
 class Item {
