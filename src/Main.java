@@ -118,19 +118,19 @@ class Roamer extends Hero {
     }
 
     public void attack() {
-        System.out.println("Marksman shoots bullet");
+        System.out.println("Roamer roll punch");
     }
 
     public void defend() {
-        System.out.println("Marksman rolls");
+        System.out.println("Roamer blocks");
     }
 
     public void useSkill() {
-        System.out.println("Marksman uses laser");
+        System.out.println("Roamer spinning punch");
     }
 
     public void specialSkil() {
-        System.out.println("Marksman uses laser beam");
+        System.out.println("Roamer metal punch");
     }
 }
 
