@@ -144,7 +144,7 @@ class Jungler extends Hero {
     }
 
     public void defend() {
-        System.out.println("Jungler shadow evade");
+        System.out.println("Junglesr shadow evade");
     }
 
     public void useSkill() {
