@@ -72,19 +72,19 @@ class Mage extends Hero {
     }
 
     public void attack() {
-        System.out.println("Fire burst");
+        System.out.println("Mage shoot fire burst");
     }
 
     public void defend() {
-        System.out.println("Summon glass shield");
+        System.out.println("Mage summon glass shield");
     }
 
     public void useSkill() {
-        System.out.println("");
+        System.out.println("Mage flame tsunami");
     }
 
     public void specialSkil() {
-        System.out.println("Raining Sun Storm");
+        System.out.println("Mage unleash raining Sun Storm");
     }
 }
 
