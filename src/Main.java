@@ -53,16 +53,16 @@ class Fighter extends Hero {
     }
 
     public void defend() {
-        System.out.println("Swings sword");
+        System.out.println("Raises shield");
 
     }
 
     public void useSkill() {
-        System.out.println("Swings sword");
+        System.out.println("Throws pickaxe");
     }
 
     public void specialSkil() {
-        System.out.println("Swings sword");
+        System.out.println("Tornado Sword Swings");
     }
 }
 
