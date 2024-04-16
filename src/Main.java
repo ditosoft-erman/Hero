@@ -134,6 +134,28 @@ class Roamer extends Hero {
     }
 }
 
+class Jungler extends Hero {
+    public Jungler(String name, int level, int healthPoints) {
+        super(name, level, healthPoints);
+    }
+
+    public void attack() {
+        System.out.println("Jungler slash attack");
+    }
+
+    public void defend() {
+        System.out.println("Jungler shadow evade");
+    }
+
+    public void useSkill() {
+        System.out.println("Jungler uses assassin slash");
+    }
+
+    public void specialSkil() {
+        System.out.println("Jungler death slash");
+    }
+}
+
 class Item {
     private String name;
 
