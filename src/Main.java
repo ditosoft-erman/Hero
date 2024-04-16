@@ -66,6 +66,51 @@ class Fighter extends Hero {
     }
 }
 
+class Mage extends Hero {
+    public Mage(String name, int level, int healthPoints) {
+        super(name, level, healthPoints);
+    }
+
+    public void attack() {
+        System.out.println("Fire burst");
+    }
+
+    public void defend() {
+        System.out.println("Summon glass shield");
+    }
+
+    public void useSkill() {
+        System.out.println("");
+    }
+
+    public void specialSkil() {
+        System.out.println("Raining Sun Storm");
+    }
+}
+
+class Marksman extends Hero {
+    public Marksman(String name, int level, int healthPoints) {
+        super(name, level, healthPoints);
+    }
+
+    public void attack() {
+        System.out.println("Marksman shoots bullet");
+    }
+
+    public void defend() {
+        System.out.println("Marksman rolls");
+    }
+
+    public void useSkill() {
+        System.out.println("Marksman uses laser");
+    }
+
+    public void specialSkil() {
+        System.out.println("Marksman uses laser beam");
+    }
+
+}
+
 class Item {
     private String name;
 
