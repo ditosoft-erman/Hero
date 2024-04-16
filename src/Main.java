@@ -49,20 +49,20 @@ class Fighter extends Hero {
     }
 
     public void attack() {
-        System.out.println("Swings sword");
+        System.out.println("Fighter swings sword");
     }
 
     public void defend() {
-        System.out.println("Raises shield");
+        System.out.println("Fighter raises shield");
 
     }
 
     public void useSkill() {
-        System.out.println("Throws pickaxe");
+        System.out.println("Fighter throws pickaxe");
     }
 
     public void specialSkil() {
-        System.out.println("Tornado Sword Swings");
+        System.out.println("Fighter uses tornado sword swings");
     }
 }
 
@@ -81,6 +81,7 @@ class Mage extends Hero {
 
     public void useSkill() {
         System.out.println("Mage flame tsunami");
+
     }
 
     public void specialSkil() {
