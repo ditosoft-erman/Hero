@@ -112,6 +112,28 @@ class Marksman extends Hero {
 
 }
 
+class Roamer extends Hero {
+    public Roamer(String name, int level, int healthPoints) {
+        super(name, level, healthPoints);
+    }
+
+    public void attack() {
+        System.out.println("Marksman shoots bullet");
+    }
+
+    public void defend() {
+        System.out.println("Marksman rolls");
+    }
+
+    public void useSkill() {
+        System.out.println("Marksman uses laser");
+    }
+
+    public void specialSkil() {
+        System.out.println("Marksman uses laser beam");
+    }
+}
+
 class Item {
     private String name;
 
