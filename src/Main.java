@@ -179,5 +179,10 @@ public class Main {
         System.out.println("Mage Level: " + mage.getLevel());
         System.out.println("Mage Health Points: " + mage.getHealthPoints());
 
+        Marksman marksman = new Marksman("Layla", 20, 100);
+        System.out.println("Marksman Name: " + marksman.getName());
+        System.out.println("Marksman Level: " + marksman.getLevel());
+        System.out.println("Marksman Health Points: " + marksman.getHealthPoints());
+
     }
 }
