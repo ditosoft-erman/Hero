@@ -184,5 +184,10 @@ public class Main {
         System.out.println("Marksman Level: " + marksman.getLevel());
         System.out.println("Marksman Health Points: " + marksman.getHealthPoints());
 
+        Jungler jungler = new Jungler("Scoofie", 80, 100);
+        System.out.println("Jungler Name: " + jungler.getName());
+        System.out.println("Jungler Level: " + jungler.getLevel());
+        System.out.println("Jungler Health Points: " + jungler.getHealthPoints());
+
     }
 }
