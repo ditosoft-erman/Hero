@@ -189,5 +189,9 @@ public class Main {
         System.out.println("Jungler Level: " + jungler.getLevel());
         System.out.println("Jungler Health Points: " + jungler.getHealthPoints());
 
+        Fighter fighter = new Fighter("Jeff", 1000, 100);
+        System.out.println("Fighter Name: " + fighter.getName());
+        System.out.println("Fighter Level: " + fighter.getLevel());
+        System.out.println("Fighter Health Points: " + fighter.getHealthPoints());
     }
 }
