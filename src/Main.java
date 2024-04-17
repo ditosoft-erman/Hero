@@ -174,8 +174,10 @@ class Item {
 
 public class Main {
     public static void main(String[] args) {
+        Mage mage = new Mage("Mae", 20, 100);
+        System.out.println("Mage Name: " + mage.getName());
+        System.out.println("Mage Level: " + mage.getLevel());
+        System.out.println("Mage Health Points: " + mage.getHealthPoints());
 
-        Item sword = new Item("Excalibur");
-        System.out.println("Equipped Item: " + sword.getName());
     }
 }
