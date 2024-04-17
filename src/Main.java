@@ -193,5 +193,10 @@ public class Main {
         System.out.println("Fighter Name: " + fighter.getName());
         System.out.println("Fighter Level: " + fighter.getLevel());
         System.out.println("Fighter Health Points: " + fighter.getHealthPoints());
+
+        Roamer roamer = new Roamer("Gatot", 89, 99999);
+        System.out.println("Roamer Name: " + roamer.getName());
+        System.out.println("Roamer Level: " + roamer.getLevel());
+        System.out.println("Roamer Health Points: " + roamer.getHealthPoints());
     }
 }
